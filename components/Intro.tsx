@@ -2,8 +2,9 @@ import { motion } from 'framer-motion';
 
 function Intro() {
   return (
-    <>
-      <h1 className='mt-44 w-[35%] text-center text-5xl font-semibold'>
+    <div className='flex flex-col items-center justify-center'>
+      <span>Hi! I'm a</span>
+      <h1 className='text-center text-5xl font-semibold'>
         {['Self-driven developer', 'who loves to explore', 'new technologies'].map((t) => (
           <motion.span style={{ overflow: 'hidden', display: 'block' }}>
             <motion.span
@@ -23,7 +24,7 @@ function Intro() {
       >
         Explore Projects
       </motion.button>
-    </>
+    </div>
   );
 }
 
