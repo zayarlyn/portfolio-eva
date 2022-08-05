@@ -33,7 +33,7 @@ const Senbonzakura = ({ count, reverse }: { count: number; reverse?: boolean }) 
                 }}
                 style={{
                   filter: `brightness(${100 - 10 * i + '%'})`,
-                  translateY: scrollYProgress
+                  // translateY: scrollYProgress
                   // ...(y !== 0.0 && { translateY: y*100+'%' }),
                 }}
                 transition={{duration: .1}}
