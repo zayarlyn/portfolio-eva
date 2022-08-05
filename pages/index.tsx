@@ -7,36 +7,26 @@ import Bankai from '../components/Bankai';
 import InitialDrop from '../components/InitialDrop';
 import BgSwords from '../components/BgSwords';
 import Header from '../components/Header';
+import Miracle from '../components/Miracle';
+import Senbonzakura from '../components/Home';
 import Intro from '../components/Intro';
 
-const Home: NextPage = () => {
-  const [swordDropped, setSwordDropped] = useState(false);
-  // const [yScroll, setYScroll] = useState(0);
-
-  // const { scrollYProgress, scrollY } = useScroll();
-
-  useEffect(() => {
-    // return scrollYProgress.onChange(setYScroll);
-  }, []);
-  // console.log(swordDropped);
-
+const Index: NextPage = () => {
   return (
-    <div className='flex h-screen min-h-screen flex-col items-center overflow-hidden'>
+    <div className='flex flex-col h-[200vh] min-h-screen overflow-hidden'>
       <Head>
         <title>Create Next App</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      {/* {swordDropped ? (
-        <> */}
-          <Header />
-          <BgSwords />
-          <Intro/>
-        {/* </>
-      ) : (
-      <InitialDrop setSwordDropped={setSwordDropped} />
-      )} */}
+
+      <Header />
+      <div className='flex w-11/12 mx-auto'>
+        <Senbonzakura />
+        {/* <Miracle /> */}
+        {/* <Intro /> */}
+      </div>
     </div>
   );
 };
 
-export default Home;
+export default Index;

@@ -5,7 +5,7 @@ import Senbonzakura from './Senbonzakura';
 
 function Home() {
   return (
-    <div className='no-outline relative mx-8 my-6 grid w-[100%] grow grid-cols-[auto_1fr_auto]'>
+    <div className='relative mx-8 my-6 grid w-[100%] grow grid-cols-[auto_1fr_auto]'>
       <Senbonzakura count={3} />
       <Intro />
       <Senbonzakura count={3} reverse />
