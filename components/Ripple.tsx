@@ -19,6 +19,7 @@ function Ripple({ color }: { color?: string }) {
             position: 'absolute',
           }}
           className='absolute h-8 w-16'
+          key={e}
         ></motion.div>
       ))}
     </div>

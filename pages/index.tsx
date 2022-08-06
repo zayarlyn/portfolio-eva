@@ -13,7 +13,7 @@ import Intro from '../components/Intro';
 
 const Index: NextPage = () => {
   return (
-    <div className='flex flex-col h-[200vh] min-h-screen overflow-hidden'>
+    <div className='flex flex-col h-[400vh] min-h-screen overflow-hidden'>
       <Head>
         <title>Create Next App</title>
         <link rel='icon' href='/favicon.ico' />
