@@ -9,7 +9,8 @@
     "framer-motion": "^6.5.1",
     "next": "latest",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-parallax-tilt": "^1.7.51"
   },
   "devDependencies": {
     "@types/node": "17.0.35",
