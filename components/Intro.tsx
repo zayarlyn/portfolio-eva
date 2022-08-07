@@ -2,8 +2,6 @@ import { memo } from 'react';
 import { motion } from 'framer-motion';
 
 function Intro() {
-
-
   // console.log('intro re-rendered');
   return (
     <div className='flex flex-col items-center justify-center'>
