@@ -51,13 +51,10 @@ export default Senbonzakura;
 
 const staggerSword = (v: number, i: number) => {
   const t = v - (2 - i) * 15;
-  return (t < 0 ? 0 : t > 100 ? 100 : t) + '%';
+  return Math.max(0, Math.min(100, t)) + '%';
 };
 
 const staggerRipple = (v: number, i: number) => {
   const t = v - (2 - i) * 25 + (i === 1 ? -5 : 0);
-  const l = 34 + i*20;
-  console.log(34 + i*20);
-  console.log(i, t)
-  return t < 0 ? 0 : t > l ? l : t + 'px';
+  return Math.max(0, Math.min(34 + i*20, t)) + 'px';
 };

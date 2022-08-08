@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import { motion, useScroll } from 'framer-motion';
 import Header from '../components/Header';
-import Home from '../components/Home';
+import Home from '../components/Home/Home';
 import Projects from '../components/Projects/Projects';
 
 const Index: NextPage = () => {

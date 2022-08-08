@@ -1,5 +1,5 @@
 import {motion} from 'framer-motion';
-import Ripple from './Ripple';
+import Ripple from './Home/Ripple';
 
 function Miracle() {
   return (

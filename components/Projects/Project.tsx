@@ -14,14 +14,14 @@ const Project = () => {
           </p>
           <div className='mt-4'>
             <b className='mr-3'>Tech stack:</b>
-            <i className='tracking-wide'>nextjs, firestore, chakra ui</i>
+            <i className='tracking-wide'>nextjs, typescript, firestore, chakra ui</i>
           </div>
           <div className='mt-9'>
             <button className='rounded-md border-2 border-red-600 px-6 py-1'>Demo</button>
             <button className='ml-6'>source code</button>
           </div>
         </div>
-        <div className='absolute right-0 top-10'>
+        <div className='absolute right-0 top-20'>
           <span className='text-8xl'>01</span>
         </div>
       </div>
